@@ -2,7 +2,7 @@ version: "3.2"
 
 services:
   lab:
-    image: node:12-alpine
+    image: node:14
     restart: always
     # user: "node"
     working_dir: /home/node/app
@@ -10,7 +10,19 @@ services:
       - NODE_ENV=production
     volumes:
       - ./:/home/node/app
-      - ./node_modules:/home/node/app/node_modules
+      # - ./node_modules:/home/node/app/lab/ex1/node_modules
     command: tail -f
     ports:
       - 13000:3000
+  # hardhat:
+  #   build:
+  #     context: ./hardhat-template
+  #     dockerfile: Dockerfile.dev
+  #   restart: always
+  #   command: tail -f
+  #   volumes: 
+  #     - ./hardhat-template:/app
+  #     - /app/node_modules
+  #     # - ./<PATH_TO_FRONTEND_DIR>/contracts:/app/tmp/contracts
+  #   ports:
+  #     - 8545:8545
