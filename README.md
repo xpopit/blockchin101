@@ -9,11 +9,11 @@ Tools <br >
 https://hardhat.org/tutorial/writing-and-compiling-contracts.html <br >
 
 Cli <br >
-    apk add git <br >
+    mkdir ./lab/ex1   
     code /home/node/app/lab/ex1 <br >
     npm init -y <br >
-    yarn add harthat 
-    yarn add -d harthat <br >
+    yarn add hardhat 
+    yarn add -D hardhat <br >
     npm install -g node-gyp node-pre-gyp <br >
     su node <br >
     yarn add -D hardhat <br >
