@@ -7,8 +7,8 @@ yarn-error.log*
 lerna-debug.log*
 
 node_modules
-hardhat-hackathon-boilerplate
-hardhat-template
+# hardhat-hackathon-boilerplate
+# hardhat-template
 package-lock.json
 lab/ex1/*
 lab/ex2/*
