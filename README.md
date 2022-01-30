@@ -1,23 +1,23 @@
 # blockchin101
-30/1/65 _
-Tools _
-    vscode  _
-    - solidity _
+30/1/65 <br >
+Tools <br >
+    vscode  <br >
+    - solidity <br >
     - docker -
-    - remote dev _
+    - remote dev <br >
 
-https://hardhat.org/tutorial/writing-and-compiling-contracts.html _
+https://hardhat.org/tutorial/writing-and-compiling-contracts.html <br >
 
-Cli _
-    apk add git _
-    code /home/node/app/lab/ex1 _
-    npm init -y _
+Cli <br >
+    apk add git <br >
+    code /home/node/app/lab/ex1 <br >
+    npm init -y <br >
     yarn add harthat 
-    yarn add -d harthat _
-    npm install -g node-gyp node-pre-gyp _
-    su node _
-    yarn add -D hardhat _
-    yarn add -D @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai _
-    npx hardhat _
-    yarn _
-    npx hardhat compile _
+    yarn add -d harthat <br >
+    npm install -g node-gyp node-pre-gyp <br >
+    su node <br >
+    yarn add -D hardhat <br >
+    yarn add -D @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai <br >
+    npx hardhat <br >
+    yarn <br >
+    npx hardhat compile <br >
